@@ -3,14 +3,14 @@
 
 
 
-/* Body image
+
 body{
   background-image: url('../IMGS/starbg.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-  */
+
 
 body{
   font-family: poppins;
