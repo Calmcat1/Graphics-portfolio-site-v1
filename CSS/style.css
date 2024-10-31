@@ -102,7 +102,7 @@ body{
 }
 
 
-/* portfolio boxes */
+/* portfolio boxes 
 .portfolio-box-1:hover, .portfolio-box-2:hover, .portfolio-box-3:hover, .portfolio-box-4:hover, .portfolio-box-5:hover, .portfolio-box-6:hover{
   opacity: 0.8;
   cursor: pointer;
@@ -112,3 +112,4 @@ body{
   opacity: 0.6;
   cursor: pointer;
 }
+*/
