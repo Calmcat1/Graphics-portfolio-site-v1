@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* Body image
+body{
+  background-image: url('../IMGS/starbg.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  */
+
+body{
+  font-family: poppins;
+  color: #333333;
+}
+
+.body-padding{
+  padding: 1em;
+}
+
+.top-bar{
+  background-color: black;
+  color: white;
+
+}
+
+/* roboto font*/
+.roboto-font{
+  font-family: roboto;
+}
+
+/* border bottom(black 1px) */
+.one-px-black-border-bottom{
+  border-bottom: 1px black solid;
+}
+
+
+/* white background */
+.white-background{
+  background-color: white;
+}
+
+/*padding to push things to the middle*/
+.body-padding{
+  padding: 0 10em 0 10em;
+}
+
+/* custom slide colors */
+.solid-color-slide1,.solid-color-slide2,.solid-color-slide3{
+  height: 300px;
+}
+
+.solid-color-slide1{
+  background: rgb(208,11,255);
+  background: linear-gradient(90deg, rgba(208,11,255,1) 0%, rgba(127,0,255,1) 100%);
+  
+}
+
+.solid-color-slide2{
+  background: rgb(11,93,255);
+  background: linear-gradient(90deg, rgba(11,93,255,1) 0%, rgba(0,180,255,1) 100%);
+}
+
+.solid-color-slide3{
+  background: rgb(255,11,72);
+  background: linear-gradient(90deg, rgba(255,11,72,1) 0%, rgba(255,0,235,1) 100%);
+}
+
+/*font family black*/
+.font-weight-black{
+  font-weight: 900;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gray-background{
+  background-color: #E9ECEF;
+}
+
+.width-20{
+  width: 50%;
+}
+
+/*portfolio div modifier*/
+.portfolio-background{
+  display: flex;
+  padding: 1em;
+}
+
+
+/* display = flex */
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* portfolio boxes */
+.portfolio-box-1:hover, .portfolio-box-2:hover, .portfolio-box-3:hover, .portfolio-box-4:hover, .portfolio-box-5:hover, .portfolio-box-6:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.portfolio-box-1:active, .portfolio-box-2:active, .portfolio-box-3:active, .portfolio-box-4:active, .portfolio-box-5:active, .portfolio-box-6:active{
+  opacity: 0.6;
+  cursor: pointer;
+}
